@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Y2mJoq" name="SiTraNoPlus" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" companyName="TantepSjnk"
+              cppLanguageStandard="20" version="1.1">
+  <MAINGROUP id="W5zPge" name="SiTraNoPlus">
+    <GROUP id="{3C62BDB3-A548-6D28-E7D0-4E4FAF77C2B1}" name="Assets">
+      <FILE id="JwhlVm" name="SiTraNoPluslogo.png" compile="0" resource="1"
+            file="Assets/SiTraNoPluslogo.png"/>
+      <FILE id="DzsluG" name="openClearButtonCleanBg.png" compile="0" resource="1"
+            file="Assets/openClearButtonCleanBg.png"/>
+      <FILE id="s2iDBc" name="PlayerButtonCleanBg.png" compile="0" resource="1"
+            file="Assets/PlayerButtonCleanBg.png"/>
+      <FILE id="Pszds9" name="pvButtonActive.png" compile="0" resource="1"
+            file="Assets/pvButtonActive.png"/>
+      <FILE id="QbzFcF" name="pvButtonNormal.png" compile="0" resource="1"
+            file="Assets/pvButtonNormal.png"/>
+      <FILE id="moVjNM" name="hiresButtonActive.png" compile="0" resource="1"
+            file="Assets/hiresButtonActive.png"/>
+      <FILE id="f2yaMQ" name="hiresButtonNormal.png" compile="0" resource="1"
+            file="Assets/hiresButtonNormal.png"/>
+      <FILE id="d5wSyx" name="transPreserveButtonNormal.png" compile="0"
+            resource="1" file="Assets/transPreserveButtonNormal.png"/>
+      <FILE id="UByuHA" name="transPreserveButtonActive.png" compile="0"
+            resource="1" file="Assets/transPreserveButtonActive.png"/>
+      <FILE id="qBJ7qO" name="transPreserveButtonDown.png" compile="0" resource="1"
+            file="Assets/transPreserveButtonDown.png"/>
+      <FILE id="uXhVqX" name="pvButtonDown.png" compile="0" resource="1"
+            file="Assets/pvButtonDown.png"/>
+      <FILE id="P3NMNA" name="stopButtonDown.png" compile="0" resource="1"
+            file="Assets/stopButtonDown.png"/>
+      <FILE id="a6I5K8" name="pauseButtonDown.png" compile="0" resource="1"
+            file="Assets/pauseButtonDown.png"/>
+      <FILE id="NaCURr" name="playButtonDown.png" compile="0" resource="1"
+            file="Assets/playButtonDown.png"/>
+      <FILE id="VnhpGQ" name="masterButtonOff.png" compile="0" resource="1"
+            file="Assets/masterButtonOff.png"/>
+      <FILE id="losMR7" name="masterButtonOn.png" compile="0" resource="1"
+            file="Assets/masterButtonOn.png"/>
+      <FILE id="MIAhvN" name="noiseButtonOff.png" compile="0" resource="1"
+            file="Assets/noiseButtonOff.png"/>
+      <FILE id="k0B1Cc" name="noiseButtonOn.png" compile="0" resource="1"
+            file="Assets/noiseButtonOn.png"/>
+      <FILE id="QxaBQx" name="transButtonOff.png" compile="0" resource="1"
+            file="Assets/transButtonOff.png"/>
+      <FILE id="bfxwEG" name="transButtonOn.png" compile="0" resource="1"
+            file="Assets/transButtonOn.png"/>
+      <FILE id="v57y0u" name="sineButtonOff.png" compile="0" resource="1"
+            file="Assets/sineButtonOff.png"/>
+      <FILE id="e6Z67n" name="sineButtonOn.png" compile="0" resource="1"
+            file="Assets/sineButtonOn.png"/>
+      <FILE id="BjRnXy" name="matchButtonDown.png" compile="0" resource="1"
+            file="Assets/matchButtonDown.png"/>
+      <FILE id="xtuplY" name="resetButtonDown.png" compile="0" resource="1"
+            file="Assets/resetButtonDown.png"/>
+      <FILE id="Hsmbv0" name="resetButtonNormal.png" compile="0" resource="1"
+            file="Assets/resetButtonNormal.png"/>
+      <FILE id="aT2NnJ" name="matchButtonNormal.png" compile="0" resource="1"
+            file="Assets/matchButtonNormal.png"/>
+      <FILE id="f7dbZv" name="clearButtonDown.png" compile="0" resource="1"
+            file="Assets/clearButtonDown.png"/>
+      <FILE id="AfXiht" name="openButtonDown.png" compile="0" resource="1"
+            file="Assets/openButtonDown.png"/>
+      <FILE id="kaBzmm" name="openButtonNormal.png" compile="0" resource="1"
+            file="Assets/openButtonNormal.png"/>
+      <FILE id="XB7iVZ" name="clearButtonNormal.png" compile="0" resource="1"
+            file="Assets/clearButtonNormal.png"/>
+      <FILE id="TeNKgV" name="playButtonNormal.png" compile="0" resource="1"
+            file="Assets/playButtonNormal.png"/>
+      <FILE id="uUT4kD" name="pauseButtonNormal.png" compile="0" resource="1"
+            file="Assets/pauseButtonNormal.png"/>
+      <FILE id="D8dkNj" name="stopButtonNormal.png" compile="0" resource="1"
+            file="Assets/stopButtonNormal.png"/>
+      <FILE id="YbK1r8" name="backButtonDown.png" compile="0" resource="1"
+            file="Assets/backButtonDown.png"/>
+      <FILE id="lWagBv" name="backButtonNormal.png" compile="0" resource="1"
+            file="Assets/backButtonNormal.png"/>
+      <FILE id="Wvn493" name="gradientBackground5.png" compile="0" resource="1"
+            file="Assets/gradientBackground5.png"/>
+      <FILE id="F6QoSK" name="MeterGrill.png" compile="0" resource="1" file="Assets/MeterGrill.png"/>
+    </GROUP>
+    <GROUP id="{6D2ADC10-FE7E-F1FB-B9AD-357161BE4512}" name="SiTraNo_resources"/>
+    <GROUP id="{C666E6FC-AD6F-8165-5734-EB248A520B90}" name="Source">
+      <GROUP id="{21EFE775-B275-8C51-081A-665AD8F6D122}" name="resampleComponent">
+        <FILE id="ozHoMk" name="resample.h" compile="0" resource="0" file="../SignalResampler-master/resample.h"/>
+        <FILE id="WGddrK" name="upfirdn.h" compile="0" resource="0" file="../SignalResampler-master/upfirdn.h"/>
+      </GROUP>
+      <GROUP id="{41E630A7-657A-7F9D-62A0-F99D233159DE}" name="meterComponent">
+        <FILE id="kgbnDC" name="OtherLookAndFeelSlider.h" compile="0" resource="0"
+              file="Source/meterComponent/OtherLookAndFeelSlider.h"/>
+        <FILE id="eny2ZI" name="fullWaveform.h" compile="0" resource="0" file="Source/meterComponent/fullWaveform.h"/>
+        <FILE id="p59zaZ" name="horizontalMeter.h" compile="0" resource="0"
+              file="Source/meterComponent/horizontalMeter.h"/>
+        <FILE id="LoND1k" name="verticalGradientMeter.h" compile="0" resource="0"
+              file="Source/meterComponent/verticalGradientMeter.h"/>
+      </GROUP>
+      <FILE id="lHFmzk" name="CustomImageButton.cpp" compile="1" resource="0"
+            file="Source/CustomImageButton.cpp"/>
+      <FILE id="M04gYP" name="CustomImageButton.h" compile="0" resource="0"
+            file="Source/CustomImageButton.h"/>
+      <FILE id="q01Od6" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="IwfkAA" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="j6wrCV" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="aDbdab" name="STN_utils.h" compile="0" resource="0" file="Source/STN_utils.h"/>
+    </GROUP>
+    <FILE id="kTsjCC" name="icon_16.png" compile="0" resource="1" file="../../Aalto Materials/Summer Job 2023/Enhanced Fuzzy Decomposition/SiTraNo-main/SiTraNo_resources/icon_16.png"/>
+    <FILE id="AwybnW" name="icon_24.png" compile="0" resource="1" file="../../Aalto Materials/Summer Job 2023/Enhanced Fuzzy Decomposition/SiTraNo-main/SiTraNo_resources/icon_24.png"/>
+    <FILE id="Do2I0O" name="icon_48.png" compile="0" resource="1" file="../../Aalto Materials/Summer Job 2023/Enhanced Fuzzy Decomposition/SiTraNo-main/SiTraNo_resources/icon_48.png"/>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019" bigIcon="JwhlVm" smallIcon="JwhlVm">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../juce"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce"/>
+        <MODULEPATH id="juce_audio_utils" path="../../juce"/>
+        <MODULEPATH id="juce_core" path="../../juce"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce"/>
+        <MODULEPATH id="juce_dsp" path="../../juce"/>
+        <MODULEPATH id="juce_events" path="../../juce"/>
+        <MODULEPATH id="juce_graphics" path="../../juce"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
