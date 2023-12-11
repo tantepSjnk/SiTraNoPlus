@@ -4,7 +4,7 @@
 //   OutputSignal is UpFactor/DownFactor times the length of InputSignal. UpFactor and DownFactor must be
 //   positive integers.
 
-//This function is translated from Matlab's Resample funtion.
+//This function is translated from Matlab's Resample function.
 
 //Author: Haoqi Bai
 
@@ -19,6 +19,23 @@
 #    define M_PI 3.14159265358979323846
 #endif
 using std::vector;
+
+template<typename T>
+T custom_cyl_bessel_i0(T x) {
+    T sum = 1.0;
+    T term = 1.0;
+    T x2 = x * x / 4;
+
+    for (int k = 1; k <= 20; ++k) {
+        term *= x2 / (k * k);
+        sum += term;
+        if (term < 1e-10 * sum) {
+            break;
+        }
+    }
+
+    return sum;
+}
 
 template<typename T>
 T sinc ( T x )
@@ -120,13 +137,13 @@ template<typename T>
 std::vector<T> kaiser ( const int order, const T bta )
 {
   T Numerator, Denominator;
-  Denominator = std::cyl_bessel_i(0, bta);
+  Denominator = custom_cyl_bessel_i0(bta);
   auto od2 = (static_cast<T>(order)-1)/2;
   std::vector<T> window;
   window.reserve(order);
   for (int n = 0; n < order; n++) {
     auto x = bta*std::sqrt(1-std::pow((n-od2)/od2, 2));
-    Numerator = std::cyl_bessel_i(0, x);
+    Numerator = custom_cyl_bessel_i0(x);
     window.push_back(Numerator / Denominator);
   }
   return window;
